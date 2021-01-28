@@ -11,15 +11,19 @@
     <section class="first-block">
         <div class="header">
             <div class="header__container">
-                <div class="list home">Home</div>
-                <div class="list about">About</div>
-                <div class="list team">Team</div>
-                <div class="list booking">Booking</div>
+                <div class="first-part">
+                    <div class="list home">Home</div>
+                    <div class="list about">About</div>
+                    <div class="list team">Team</div>
+                    <div class="list booking">Booking</div>
+                </div>
                 <img class="wheel" src="./images/wheel.png">
-                <div class="list menu">Menu</div>
-                <div class="list galerie">Galerie</div>
-                <div class="list events">Events</div>
-                <div class="list contact">Contact</div>
+                <div class="second-part">
+                    <div class="list menu">Menu</div>
+                    <div class="list galerie">Galerie</div>
+                    <div class="list events">Events</div>
+                    <div class="list contact">Contact</div>
+                </div>
             </div>
         </div>
         <div class="main">
@@ -28,13 +32,17 @@
             </div>
             <div class="center">
                 <div class="restaurant">Restaurant</div>
-                <div class="name">Hungry people</div>
+                <div class="name">Mazzo</div>
                 <div class="yellow-stick"></div>
                 <div class="buttons">
-                    <a class="book">Book table</a>
-                    <a class="explore">Explore</a>
+                    <div class="book-wrap">
+                        <a href="#book" class="book">Book table</a>
+                    </div>
+                    <div class="explore-wrap">
+                        <a href="#explore" class="explore">Explore</a>
+                    </div>
                  </div>
-                <a class="down-arrow"><img class="" src="./images/down-btn.png"></a>
+                <a href="#down" class="down-arrow"><img class="" src="./images/down-btn.png"></a>
             </div>
             <div class="social-media">
                 <a class="soc"><img class="social-media__fb" src="./images/fb.png"></a>
@@ -48,8 +56,10 @@
         <div class="second-block__description">
             <p class="second-block__title">About us</p>
             <div class="second-block__stick"></div>
-            <p class="second-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
-            <p class="second-block__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            <p class="second-block__subtitle">The Flavors and products typical of Sicily are revived in the restaurants managed by Philip Guardione.</p>
+            <p class="second-block__text">With “Mazzo” you can choose from 3 excellent locations in New York and Ibiza, which evoke sun and sea and where the imagination and creativity of a Sicilian chef is capable of amazing you.
+
+            </p>
         </div>
         <div class="second-block__images">
             <img class="second-block__image" src="./images/second-block.jpg">
@@ -66,16 +76,12 @@
             <div class="third-block__description">
                 <div class="third-block__title">Master Chef</div>
                 <div class="third-block__stick"></div>
-                <div class="third-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
-                    velit maximus, molestie est a, tempor magna.</div>
-                <div class="third-block__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non<br>
-                    ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a<br>
-                    sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla<br>
-                    facilisis semper laoreet.</div>
+                <div class="third-block__subtitle">The success story of “Mazzo” is, without doubt, the story of the chef Philip Guardione, a true Sicilian raised in the shadow of Mount Etna and, due to this, a creative wizard in the kitchen.</div>
+                <div class="third-block__text">As a child, with great enthusiasm and evident talent, he helped his grandmother prepare the food for all the important holidays – Christmas, Easter and Sundays. It was her who passed on the secrets of true Sicilian cooking to a very young Philip.</div>
             </div>
         </div>
     </section>
-    <section class="fourth-block">
+    <section class="fourth-block" id="book">
         <div class="fourth-block__main">
             <div class="fourth-block__description">
                 <div class="fourth-block__title">Book a table</div>
@@ -104,7 +110,489 @@
                 <div class="fourth-block__cube"></div>
             </div>
         </div>
-        <div class="fourth-block__footer">Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>, Phone: <b>+40 729 131 637/+40 726 458 782</b></div>
+        <div class="fourth-block__footer">Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>, Phone: <b>+355 69 666 7000 / +355 69 666 6270</b></div>
     </section>
+    <section class="fifth-block">
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="image">
+                                <article class="first-slide">
+                                        <div class="fifth-block__name">Specialties</div>
+                                        <div class="fifth-block__main">
+                                            <div class="fifth-block__images">
+                                                <img class="fifth-block__image" src="./images/fifth-block.jpg">
+                                                <div class="fifth-block__cube"></div>
+                                            </div>
+                                            <div class="fifth-block__description">
+                                                <div class="fifth-block__title">Strawberry ice-cream</div>
+                                                <div class="fifth-block__stick"></div>
+                                                <div class="fifth-block__subtitle"> We have an old fashioned strawberry ice cream recipe that makes it the perfect spring or summer dessert.</div>
+                                                <div class="fifth-block__text">There is just something about home-made strawberry ice cream: it's the taste of blue skies, of sun on your shoulders; an idealised memory of summer in perfect culinary form.</div>
+                                            </div>
+                                        </div>
+                                </article>
+                                <article>
+                                    <div class="fifth-block__name">Specialties</div>
+                                    <div class="fifth-block__main">
+                                        <div class="fifth-block__images">
+                                            <img class="fifth-block__image" src="./images/fifth-block2.jpg">
+                                            <div class="fifth-block__cube"></div>
+                                        </div>
+                                        <div class="fifth-block__description">
+                                            <div class="fifth-block__title">Panna Cotta</div>
+                                            <div class="fifth-block__stick"></div>
+                                            <div class="fifth-block__subtitle">We will fill the air with the delicious aroma of fresh vanilla and you won't be able to wait to dive into this creamy panna cotta.
+                                            </div>
+                                            <div class="fifth-block__text">Panna cotta (Italian for "cooked cream") is an Italian dessert of sweetened cream thickened with gelatin and molded. The cream may be aromatized with coffee, vanilla, or other flavorings.</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="fifth-block__name">Specialties</div>
+                                    <div class="fifth-block__main">
+                                        <div class="fifth-block__images">
+                                            <img class="fifth-block__image" src="./images/fifth-block3.jpg">
+                                            <div class="fifth-block__cube"></div>
+                                        </div>
+                                        <div class="fifth-block__description">
+                                            <div class="fifth-block__title">Profiterolis</div>
+                                            <div class="fifth-block__stick"></div>
+                                            <div class="fifth-block__subtitle">Profiteroles are a hazard. It is way too easy to inhale an indecent amount in one sitting.</div>
+                                            <div class="fifth-block__text">Crispy hollow choux pastry balls filled with custard or cream then drizzled with chocolate, these are a terrific small-bite dessert option for gatherings.</div></div>
+                                    </div>
+                                </article>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                    </div>
+                    <div id="active">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                    </div>
+                </div>
+                </article>
+        </div>
+    </section>
+    <section class="sixth-block" id="explore">
+        <div class="sixth-block__wrap">
+            <div class="sixth-block__title">DELICIOUS MENU</div>
+            <div class="sixth-block__stick"></div>
+            <div class="sixth-block__subtitle">Our dishes capture the flavors of the Naples.<br>Our pasta always are made with fresh products and imported from Italy.</div>  
+        </div>
+        <div class="tabs">
+            <div class="tab">
+             <input type="radio" id="tab1" name="tab-group" checked>
+             <label for="tab1" class="tab-title">Soup</label> 
+             <section class="tab-content">
+                <ul>
+                    <li class="menu__list">
+                        <div class="menu__title">Tokyo shio .... 17$</div>
+                        <div class="menu__subtitle">sea salts, dashi + chicken broth, pork belly, soft egg, roasted tomato</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">Tokyo shoyu .... 20$</div>
+                        <div class="menu__subtitle">soy sauce, dashi + chicken broth, pork belly, soft egg, toasted nori</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">VEGAN SHOYU .... 18$</div>
+                        <div class="menu__subtitle">soy sauce + vegetable broth, beech mushrooms, roasted tomato, koji tofu, Asian greens</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">SPICY RED CHILI .... 17$</div>
+                        <div class="menu__subtitle">dashi + chicken broth, minced pork, smashed egg, bok choy</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">CHICKEN PAITAN .... 21$</div>
+                        <div class="menu__subtitle">rich chicken broth, minced chicken, egg yolk, shio kombu</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">TONKOTSU RAMEN .... 17$</div>
+                        <div class="menu__subtitle">rich pork broth, shoyu-glazed chashu, woodear mushrooms, pickled mustard greens, soft egg, and mayu</div>
+                    </li>
+                </ul>
+             </section>
+            </div> 
+            <div class="tab">
+             <input type="radio" id="tab2" name="tab-group">
+             <label for="tab2" class="tab-title">Pizza</label> 
+             <section class="tab-content">
+                <ul>
+                    <li class="menu__list">
+                        <div class="menu__title">MARINARA .... 30$</div>
+                        <div class="menu__subtitle">Tomato sauce (san Marzano DOP eccellenze nolane), garlic, oregano and extra virgin olive oil (no cheese).</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">MARGHERITA .... 30$</div>
+                        <div class="menu__subtitle">Tomato sauce (san Marzano DOP eccellenze nolane), mozzarella (fiordilatte di agerola), basil and extra virgin olive oil.</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">NAPOLETANA .... 35$</div>
+                        <div class="menu__subtitle">Tomato sauce (san Marzano DOP eccellenze nolane), mozzarella (fiordilatte di agerola), anchovies, basil, and extra virgin olive oil.</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">DIAVOLA .... 30$</div>
+                        <div class="menu__subtitle">Tomato sauce (san Marzano DOP eccellenze nolane), mozzarella (fiordilatte di agerola), spicy imported salame from Napoli, basil and extra Virgin olive oil.</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">VEGETARIANA .... 28$</div>
+                        <div class="menu__subtitle ">Tomato sauce (san Marzano DOP eccellenze nolane), mozzarella (fiordilatte di agerola), zucchini, eggplant, mushrooms, artichoke, basil and extra virgin olive oil.</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">PIZZA PARMIGIANA .... 35$</div>
+                        <div class="menu__subtitle">Eggplant Parmigiana, tomato sauce, smoked mozzarella (fiordilatte di agerola), shaved caciotta, basil and evo</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">PROSCIUTTO E FUNGHI .... 28$</div>
+                        <div class="menu__subtitle">Tomato sauce (san Marzano DOP eccellenze nolane), mozzarella (fiordilatte di agerola), prosciutto cotto (ham), Mushrooms, basil and extra virgin olive oil.</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">CAPRICCIOSA .... 30$</div>
+                        <div class="menu__subtitle">Tomato sauce (san Marzano DOP eccellenze nolane), mozzarella (fiordilatte di agerola), prosciutto cotto (ham), mushrooms, artichokes, black olives, basil and extra virgin olive oil.</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">MARINARA STARITA .... 35$</div>
+                        <div class="menu__subtitle">Sicilian confit grape tomatoes with alici di Cetara, tomato (san Marzano DOP eccellenze nolane), oregano siciliano organic, anchovies, garlic & pecorino romano cheese 24 months cured. </div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">PRIMAVERA .... 30$</div>
+                        <div class="menu__subtitle">Mozzarella (fiordilatte di agerola), arugula, prosciutto di Parma, cherry tomatoes, shaved Parmigiano reggiano and extra virgin olive oil.</div>
+                    </li>
+                </ul>
+             </section>
+            </div>
+            <div class="tab">
+             <input type="radio" id="tab3" name="tab-group">
+             <label for="tab3" class="tab-title">Pasta</label> 
+             <section class="tab-content">
+                <ul>
+                    <li class="menu__list">
+                        <div class="menu__title">SPAGHETTI AL RAGU CON POLPETTE .... 25$</div>
+                        <div class="menu__subtitle">Spaghetti with meatballs, tomato sauce and Parmigiano reggiano</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">FETTUCCINE ALLA BOLOGNESE .... 28$</div>
+                        <div class="menu__subtitle">Egg pasta with homemade meat sauce. </div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">SCIALATELLI ALLA SCARPARIELLO .... 28$</div>
+                        <div class="menu__subtitle">Homemade jumbo linguine with cherry tomato sauce, shaved Parmigiano reggiano and pepper flakes</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">PACCHERI ALLA GENOVESE  .... 27$</div>
+                        <div class="menu__subtitle">Homemade Jumbo rigatoni with slow cooked onion ragu, veal and Parmigiano reggiano </div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">SPAGHETTI ALLE VONGOLE  .... 30$</div>
+                        <div class="menu__subtitle">Spaghetti with clams in a white wine and garlic sauce</div>
+                    </li>
+                    <li class="menu__list">
+                        <div class="menu__title">LINGUINE NERE CON GAMBERI  .... 27$</div>
+                        <div class="menu__subtitle">Homemade black (squid ink) linguine with shrimps, cherry tomato sauce and pepper flakes. </div>
+                    </li>
+                </ul>
+             </section> 
+            </div> 
+            <div class="tab">
+                <input type="radio" id="tab4" name="tab-group">
+                <label for="tab4" class="tab-title">Desert</label> 
+                <section class="tab-content">
+                    <ul>
+                        <li class="menu__list">
+                            <div class="menu__title">COPPA CAFFÈ .... 15$</div>
+                            <div class="menu__subtitle">Fior di latte gelato with a rich coffee and pure cocoa swirl.</div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">PROFITEROLES .... 18$</div>
+                            <div class="menu__subtitle">A layer of vanilla cream topped with cream puffs covered in chocolate. </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">COCCOLE .... 20$</div>
+                            <div class="menu__subtitle">Deep fried pizza dough balls with sugar topped with warm Nutella</div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">RASPBERRY PANNA COTTA .... 20$</div>
+                            <div class="menu__subtitle">Gluten free </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">NUTELLA PANNA COTTA .... 25$</div>
+                            <div class="menu__subtitle">Gluten free Italian dessert of sweetened cream thickened with gelatin and molded </div>
+                        </li>
+                    </ul>
+                    <li class="menu__list">
+                        <div class="menu__title">Strawberry ice-cream .... 25$</div>
+                        <div class="menu__subtitle">Made by blending in fresh strawberries with the eggs, cream, vanilla and sugar </div>
+                    </li>
+                </section> 
+               </div> 
+            <div class="tab">
+                <input type="radio" id="tab5" name="tab-group">
+                <label for="tab5" class="tab-title">Wine</label> 
+                <section class="tab-content">
+                    <ul>
+                        <li class="menu__list">
+                            <div class="menu__title">Dry Riesling .... 17$</div>
+                            <div class="menu__subtitle">Zahel, Vienna Austria 2019</div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Sauvignon Blanc .... 15$</div>
+                            <div class="menu__subtitle">Cantina Andriano, “Floreado,” Alto Adige, Italy 2019 </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Verdelho Blend .... 15$</div>
+                            <div class="menu__subtitle">Forlorn Hope, Rorick Heritage Vineyard, Calaveras Co., California 2018 </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Grenache Blend  .... 17$</div>
+                            <div class="menu__subtitle">Saveurs du Temps, Costières de Nîmes, France 2018 </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Pinot Noir  .... 21$</div>
+                            <div class="menu__subtitle">O.P.P., Maison Noir, Willamette Valley, OR 2018 </div>
+                        </li>
+                    </ul>
+                </section> 
+               </div> 
+               <div class="tab">
+                <input type="radio" id="tab6" name="tab-group">
+                <label for="tab6" class="tab-title">Beer</label> 
+                <section class="tab-content">
+                    <ul>
+                        <li class="menu__list">
+                            <div class="menu__title">Abita Light .... 7$</div>
+                            <div class="menu__subtitle">Abita Brewing Co., Covington, LA </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">White Ale  .... 8$</div>
+                            <div class="menu__subtitle">Hitachino Nest, Kiuchi Brewery, Japan </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Hefeweissbier .... 14$</div>
+                            <div class="menu__subtitle">Wihenstephaner, Bavaria, Germany </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Dale's Pale Ale .... 8$</div>
+                            <div class="menu__subtitle">Oskar Blues, Lyons, Colorado (12 oz. can)</div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Road 2 Ruin Double IPA  .... 10$</div>
+                            <div class="menu__subtitle">Two Roads Brewing Co., Stratford, CT   </div>
+                        <li class="menu__list">
+                            <div class="menu__title">Nitro Stout   .... 9$</div>
+                            <div class="menu__subtitle">Left Hand Brewing Co., CO </div>
+                    </ul>
+                </section> 
+               </div> 
+               <div class="tab">
+                <input type="radio" id="tab7" name="tab-group">
+                <label for="tab7" class="tab-title tab-title__last">Drinks</label> 
+                <section class="tab-content">
+                    <ul>
+                        <li class="menu__list">
+                            <div class="menu__title">Spiked Cider .... 15$</div>
+                            <div class="menu__subtitle">spiced apple cider; choice of Four Rose's Bourbon or El Dorado 12yr Dark Rum </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Classic Hot Toddy .... 14$</div>
+                            <div class="menu__subtitle">Four Roses Bourbon, lemon, honey </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Smoke & Violet .... 12$</div>
+                            <div class="menu__subtitle">Vida Mezcal, crème de violette, lemon, honey </div>
+                        </li>
+                        <li class="menu__list">
+                            <div class="menu__title">Staycation .... 14$</div>
+                            <div class="menu__subtitle">Ten to One White Rum, apricot liqueur, lime  </div>
+                        <li class="menu__list">
+                                <div class="menu__title">Dry White Cider .... 13$</div>
+                                <div class="menu__subtitle">Wölffer Estate, Long Island, NY </div>
+                        </li>
+                        <li class="menu__list">
+                                <div class="menu__title">Pellegrino Fruit Soda   .... 17$</div>
+                                <div class="menu__subtitle">Aranciata, Aranciata Rossa </div>
+                            </li>
+                            <li class="menu__list">
+                                <div class="menu__title">Autumn Shandy  .... 21$</div>
+                                <div class="menu__subtitle">Tito's Vodka, pilsner, allspice dram, lemon  </div>
+                        </li>
+                    </ul>
+                </section> 
+               </div> 
+           </div>
+    </section>
+    <section class="seventh-block">
+        <div class="seventh-block__title">Private events</div>
+        <div class="seventh-block__wrap">
+            <div class="left-block">
+                <img class="left-block__cube">
+                <img class="left-block__image" src="images/seventh-block.jpg ">
+                <div class="left-block__name">Engagement</div>
+            </div>
+            <div class="right-block">
+                <div class="right-block__name">Weddings</div>
+                <img class="right-block__image" src="images/seventh-block2.jpg ">
+                <img class="right-block__cube">
+                
+            </div>
+        </div>
+        <div class="seventh-block__footer">For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.</div>
+    </section>
+    <section class="eighth-block">
+        <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__item">
+                <img class="slide1" src="images/slide1.jpg">
+              </div>
+              <div class="slider__item">
+                <img class="slide2" src="images/slide2.jpg">
+              </div>
+              <div class="slider__item">
+                <img class="slide3" src="images/slide3.jpg">
+              </div>
+              <div class="slider__item">
+                <img class="slide4" src="images/slide4.jpg">
+              </div>
+              <div class="slider__item">
+                <img class="slide5" src="images/slide5.jpg">
+              </div>
+              <div class="slider__item">
+                <img class="slide6" src="images/slide6.jpg">
+              </div>
+            </div>
+            <a class="slider__control slider__control_left" href="#" role="button"></a>
+            <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+          </div>
+    </section>
+    <section class="ninth-block">
+        <div class="ninth-block__wrap">
+            <div class="ninth-block__title">Contact</div>
+            <div class="ninth-block__stick"></div>
+            <div class="ninth-block__subtitle"> We are always happy to hear your feedback<p> and answer any questions about us.</div>  
+        </div>
+        <div class="ninth-block__input">
+            <div class="ninth-block__wrap">
+                <input class="ninth-block-input ninth-block-input__name" type="text" placeholder="Name">
+                <input class="ninth-block-input ninth-block-input__email" type="email" placeholder="Email">
+                <input class="ninth-block-input ninth-block-input__tel" type="tel" placeholder="Phone">
+                <input class="ninth-block-input ninth-block-input__message" type="text" placeholder="Message">
+            </div>
+            <div class="ninth-block__bottom">
+                <div class="ninth-block__text">
+                    <div class="ninth-block__adress">Rruga Kajo Karafili 22, Tirana</div>
+                    <div class="ninth-block__phone">+355 69 666 7000 / +355 69 666 6270</div>
+                    <div class="ninth-block__mail">mail@mazzo.com</div>
+                </div>
+                <div class="ninth-block-button">
+                    <button class="send-button">Send message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tenth-block">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11984.341820536496!2d19.8136081!3d41.3287551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4537e24cf32c3cbd!2sMazzo%20Lounge!5e0!3m2!1sru!2sru!4v1611818899033!5m2!1sru!2sru" width="100%" height="475" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section class="eleventh-block" id="down">
+        <div class="footer">© Copyright Mazzo, 2021</div>
+    </section>
+    <script>
+        'use strict';
+        var multiItemSlider = (function () {
+          return function (selector, config) {
+            var
+              _mainElement = document.querySelector(selector), // основный элемент блока
+              _sliderWrapper = _mainElement.querySelector('.slider__wrapper'), // обертка для .slider-item
+              _sliderItems = _mainElement.querySelectorAll('.slider__item'), // элементы (.slider-item)
+              _sliderControls = _mainElement.querySelectorAll('.slider__control'), // элементы управления
+              _sliderControlLeft = _mainElement.querySelector('.slider__control_left'), // кнопка "LEFT"
+              _sliderControlRight = _mainElement.querySelector('.slider__control_right'), // кнопка "RIGHT"
+              _wrapperWidth = parseFloat(getComputedStyle(_sliderWrapper).width), // ширина обёртки
+              _itemWidth = parseFloat(getComputedStyle(_sliderItems[0]).width), // ширина одного элемента    
+              _positionLeftItem = 0, // позиция левого активного элемента
+              _transform = 0, // значение транфсофрмации .slider_wrapper
+              _step = _itemWidth / _wrapperWidth * 100, // величина шага (для трансформации)
+              _items = []; // массив элементов
+            // наполнение массива _items
+            _sliderItems.forEach(function (item, index) {
+              _items.push({ item: item, position: index, transform: 0 });
+            });
+    
+            var position = {
+              getMin: 0,
+              getMax: _items.length - 1,
+            }
+    
+            var _transformItem = function (direction) {
+              if (direction === 'right') {
+                if ((_positionLeftItem + _wrapperWidth / _itemWidth - 1) >= position.getMax) {
+                  return;
+                }
+                if (!_sliderControlLeft.classList.contains('slider__control_show')) {
+                  _sliderControlLeft.classList.add('slider__control_show');
+                }
+                if (_sliderControlRight.classList.contains('slider__control_show') && (_positionLeftItem + _wrapperWidth / _itemWidth) >= position.getMax) {
+                  _sliderControlRight.classList.remove('slider__control_show');
+                }
+                _positionLeftItem++;
+                _transform -= _step;
+              }
+              if (direction === 'left') {
+                if (_positionLeftItem <= position.getMin) {
+                  return;
+                }
+                if (!_sliderControlRight.classList.contains('slider__control_show')) {
+                  _sliderControlRight.classList.add('slider__control_show');
+                }
+                if (_sliderControlLeft.classList.contains('slider__control_show') && _positionLeftItem - 1 <= position.getMin) {
+                  _sliderControlLeft.classList.remove('slider__control_show');
+                }
+                _positionLeftItem--;
+                _transform += _step;
+              }
+              _sliderWrapper.style.transform = 'translateX(' + _transform + '%)';
+            }
+    
+            // обработчик события click для кнопок "назад" и "вперед"
+            var _controlClick = function (e) {
+              if (e.target.classList.contains('slider__control')) {
+                e.preventDefault();
+                var direction = e.target.classList.contains('slider__control_right') ? 'right' : 'left';
+                _transformItem(direction);
+              }
+            };
+    
+            var _setUpListeners = function () {
+              // добавление к кнопкам "назад" и "вперед" обрботчика _controlClick для событя click
+              _sliderControls.forEach(function (item) {
+                item.addEventListener('click', _controlClick);
+              });
+            }
+    
+            // инициализация
+            _setUpListeners();
+    
+            return {
+              right: function () { // метод right
+                _transformItem('right');
+              },
+              left: function () { // метод left
+                _transformItem('left');
+              }
+            }
+    
+          }
+        }());
+    
+        var slider = multiItemSlider('.slider')
+    
+      </script>
 </body>
 </html>
