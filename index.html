@@ -5,30 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
     <link rel="stylesheet" href="./fonts/fonts.css">
-	<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
 </head>
 <body>
     <section class="first-block">
         <div class="header">
             <div class="header__container">
                 <div class="first-part">
-                    <div class="list home">Home</div>
-                    <div class="list about">About</div>
-                    <div class="list team">Team</div>
-                    <div class="list booking">Booking</div>
+                    <div class="list home">
+                        <a href="">Home</a>
+                    </div>
+                    <div class="list about">
+                        <a href="#about">About</a>
+                    </div>
+                    <div class="list team">
+                        <a href="#team">Team</a>
+                    </div>
+                    <div class="list booking">
+                        <a href=#book>Booking</a>
+                    </div>
                 </div>
                 <img class="wheel" src="./images/wheel.png">
                 <div class="second-part">
-                    <div class="list menu">Menu</div>
-                    <div class="list galerie">Galerie</div>
-                    <div class="list events">Events</div>
-                    <div class="list contact">Contact</div>
+                    <div class="list menu">
+                        <a href="#menu">Menu</a>
+                    </div>
+                    <div class="list galerie">
+                        <a href="#galerie">Galerie</a>
+                    </div>
+                    <div class="list events">
+                        <a href="#events">Events</a>
+                    </div>
+                    <div class="list contact">
+                        <a href="#contact">Contact</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="main">
             <div class="time">
-                <aside class="time__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</aside>
+                <aside class="time__text">Mon - Fri: 8AM - 10PM, Sat - Sun: 8AM - 3PM</aside>
             </div>
             <div class="center">
                 <div class="restaurant">Restaurant</div>
@@ -39,20 +58,20 @@
                         <a href="#book" class="book">Book table</a>
                     </div>
                     <div class="explore-wrap">
-                        <a href="#explore" class="explore">Explore</a>
+                        <a href="#menu" class="explore">Explore</a>
                     </div>
                  </div>
                 <a href="#down" class="down-arrow"><img class="" src="./images/down-btn.png"></a>
             </div>
             <div class="social-media">
-                <a class="soc"><img class="social-media__fb" src="./images/fb.png"></a>
-                <a class="soc"><img class="social-media__twitter" src="./images/twitter.png"></a>
-                <a class="soc"><img class="social-media__insta" src="./images/insta.png"></a>
+                <a class="soc" href="https://www.facebook.com/mazzomazzo24/"><img class="social-media__fb" src="./images/fb.png"></a>
+                <a class="soc" href="https://www.twitter.com/mazzomazzo24/"><img class="social-media__twitter" src="./images/twitter.png"></a>
+                <a class="soc" href="https://www.instagram.com/_mazzo.mazzo/"><img class="social-media__insta" src="./images/insta.png"></a>
             </div>
         </div>
 
     </section>
-    <section class="second-block">
+    <section class="second-block" id="about">
         <div class="second-block__description">
             <p class="second-block__title">About us</p>
             <div class="second-block__stick"></div>
@@ -66,7 +85,7 @@
             <div class="second-block__cube"></div>
         </div>
     </section>
-    <section class="third-block">
+    <section class="third-block" id="team">
         <div class="third-block__name">Our team</div>
         <div class="third-block__main">
             <div class="third-block__images">
@@ -183,7 +202,7 @@
                 </article>
         </div>
     </section>
-    <section class="sixth-block" id="explore">
+    <section class="sixth-block" id="menu">
         <div class="sixth-block__wrap">
             <div class="sixth-block__title">DELICIOUS MENU</div>
             <div class="sixth-block__stick"></div>
@@ -429,7 +448,7 @@
                </div> 
            </div>
     </section>
-    <section class="seventh-block">
+    <section class="seventh-block" id="events">
         <div class="seventh-block__title">Private events</div>
         <div class="seventh-block__wrap">
             <div class="left-block">
@@ -446,7 +465,7 @@
         </div>
         <div class="seventh-block__footer">For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.</div>
     </section>
-    <section class="eighth-block">
+    <section class="eighth-block" id="galerie">
         <div class="slider">
             <div class="slider__wrapper">
               <div class="slider__item">
@@ -472,7 +491,7 @@
             <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
           </div>
     </section>
-    <section class="ninth-block">
+    <section class="ninth-block" id="contact">
         <div class="ninth-block__wrap">
             <div class="ninth-block__title">Contact</div>
             <div class="ninth-block__stick"></div>

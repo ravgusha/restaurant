@@ -10,8 +10,11 @@ body {
     scroll-behavior: smooth;
 }
 
-a {
+a,
+a:active,
+a:hover {
     text-decoration: none;
+    color: #fff;
 }
 
 /* ПЕРВЫЙ БЛОК */
@@ -59,6 +62,7 @@ a {
 .time {
     padding-top: 30px;
     padding-right: 239px;
+    white-space: nowrap;
 }
 
 .time__text {
@@ -130,6 +134,7 @@ a {
     background: #E8C300;
     padding: 20px 63px;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
 .explore-wrap {
