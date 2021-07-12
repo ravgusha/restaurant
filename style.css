@@ -12,9 +12,14 @@ body {
 
 a,
 a:active,
-a:hover {
+a:hover,
+li:active,
+li:hover {
     text-decoration: none;
     color: #fff;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /* ПЕРВЫЙ БЛОК */
@@ -26,13 +31,14 @@ a:hover {
 }
 
 .header {
-    padding: 42px 120px 0 128px;
+    padding: 22px 120px 0 128px;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
     color: #fff;
+    align-items: center;
 }
 
 .list {
@@ -42,18 +48,10 @@ a:hover {
     text-transform: uppercase;
 }
 
-.wheel {
-    position: relative;
-    top: -17px;
-    left: -4px;
-    padding: 0 77px;
+li {
+    list-style-type: none;
 }
 
-.first-part, .second-part {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
 
 .main {
     display: flex;
@@ -61,7 +59,7 @@ a:hover {
 
 .time {
     padding-top: 30px;
-    padding-right: 239px;
+    padding-right: 223px;
     white-space: nowrap;
 }
 
@@ -148,7 +146,7 @@ a:hover {
     line-height: 20px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding: 20px 72px;
+    padding: 26.5px 86px;
     border: solid;
     border-color: #FFFFFF;
     border-radius: 5px;
