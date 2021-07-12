@@ -13,8 +13,8 @@ body {
 a,
 a:active,
 a:hover,
-li:active,
-li:hover {
+header li:active,
+header li:hover {
     text-decoration: none;
     color: #fff;
     -webkit-transform: scale(1.2);
